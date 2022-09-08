@@ -1,0 +1,46 @@
+ .wrapper    {
+    width: 1280px;
+    border: 2px solid black;
+    margin: 0 auto; /*выровнять по центру*/
+}
+
+header  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.link1  {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.ul1    {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    margin-left: 650px;
+}
+
+a   {
+    text-decoration: none;
+    color: black;
+}
+
+.li5  {
+    margin-right: 10px;
+} 
+
+.mobile1    {
+    display: none;
+}
+
+@media screen and (max-width: 768px)    {
+    .nav1   {
+        display: none;
+    }
+
+    .mobile1    {
+        display: block;
+    }
+}
